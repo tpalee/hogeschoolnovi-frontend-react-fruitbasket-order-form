@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.wrappingcontainer{
+    width:1024px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+
+
+.fruitcomponentcontainer{
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 700px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fruiticons{
+    font-size: 2rem;
+}
+
+.fruitnames{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.count{
+    font-size: 2rem;
+}
+
+
+
