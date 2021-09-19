@@ -6,43 +6,50 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
 .wrappingcontainer{
     width:1024px;
-    height: 500px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: normal;
     align-items: center;
-    background-color: darkgray;
+    background-color: #FFD15C;
 }
 
-
-
-.fruitcomponentcontainer{
-    background-color: white;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 700px;
-    height: 70px;
-    border-radius: 15px;
+.fruitcontainer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/fruitbackground.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: 100%;
+    width:100%;
 }
 
-.fruiticons{
-    font-size: 2rem;
+.resetbutton,
+.submitbutton{
+    background-color: green;
+    color:white;
+    width:200px;
+    border: none;
+    border-radius: 12px;
+    padding:5px;
+    margin: 10px;
 }
 
-.fruitnames{
-    font-size: 2rem;
-    font-weight: 700;
-}
 
-.count{
-    font-size: 2rem;
-}
 
+.form-container{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+}
 
 
