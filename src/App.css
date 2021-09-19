@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.wrappingcontainer{
+    width:1024px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: center;
+    background-color: #FFD15C;
+}
+
+.fruitcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./img/fruitbackground.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right, left;
+    background-size: 100%;
+    width:100%;
+}
+
+.resetbutton,
+.submitbutton{
+    background-color: green;
+    color:white;
+    width:200px;
+    border: none;
+    border-radius: 12px;
+    padding:5px;
+    margin: 10px;
+}
+
+
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+}
+
+

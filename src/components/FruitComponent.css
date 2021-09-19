@@ -1,0 +1,26 @@
+.fruitcomponentcontainer{
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 700px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.fruiticons{
+    font-size: 2rem;
+}
+
+.fruitnames{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.count{
+    font-size: 2rem;
+}
